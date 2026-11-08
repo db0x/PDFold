@@ -1,0 +1,19 @@
+{
+  "name": "pdfold",
+  "version": "1.1.0",
+  "description": "Minimale Web-UI für qpdf: PDFs per Drag & Drop zusammenfügen",
+  "type": "module",
+  "main": "server.js",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "overlayscrollbars": "^2.15.1",
+    "pdf-lib": "^1.17.1",
+    "sortablejs": "^1.15.7"
+  }
+}

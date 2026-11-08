@@ -1,0 +1,23 @@
+# Dependencies (installed via `npm ci`, also inside the Docker build)
+node_modules/
+
+# Logs
+npm-debug.log*
+*.log
+
+# Environment / local overrides
+.env
+.env.*
+compose.override.yaml
+docker-compose.override.yml
+
+# Editor / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# PDFs are usually customer scans – keep them out of the repo.
+# Add test fixtures explicitly with `git add -f` if needed.
+*.pdf
